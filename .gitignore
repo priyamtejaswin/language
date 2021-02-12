@@ -1,2 +1,10 @@
+*.so
 *.pyc
 *__pycache__*
+DrQA/
+enwiki-20181220/
+ict/
+model_dir/
+original_nq/
+orqa_nq_model/
+qresplit/
