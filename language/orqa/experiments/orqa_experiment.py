@@ -22,6 +22,11 @@ from language.common.utils import experiment_utils
 from language.orqa.models import orqa_model
 import tensorflow.compat.v1 as tf
 
+# Trying the `memory_growth` hack ...
+physical_devices = tf.config.list_physical_devices('GPU')
+for phydev in physical_devices:
+    tf.config.experimental.set_memory_growth(phydev, True)
+
 flags.DEFINE_integer("retriever_beam_size", 5000,
                      "Retriever beam size.")
 flags.DEFINE_integer("reader_beam_size", 5, "Reader beam size.")
