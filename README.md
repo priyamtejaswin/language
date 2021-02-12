@@ -1,5 +1,5 @@
-# Google AI Language
+Forked from the [Google AI Language repo](https://github.com/google-research/language) to run some experiments and hacks on the ORQA codebase.
 
-Shared repository for open-sourced projects from the [Google AI Language](https://ai.google/research/teams/language/) team.
+Disclaimer from Google.
+> This is not an official Google product.
 
-This is not an official Google product.
